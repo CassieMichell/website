@@ -1,0 +1,60 @@
+/*Website Styles */
+
+* {
+  font-size: 100%;
+}
+
+body {
+  background-color: DarkSeaGreen;
+  color: Color Name;
+  font-family: 'Ariel' Georgia, serif;
+  font-size: 14px;
+  font-weight: 500;
+  }
+
+  h1, h2 {
+    font-weight: 100;
+    font-style:  normal;
+  }
+
+h1 {
+  color: DarkSlateGray;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: left;
+  }
+
+h2 {
+  color: MidnightBlue;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+p {
+  color: RoyalBlue;
+  line-height: 2;
+}
+
+section li a {
+  color: Lavender;
+}
+
+header h1 {
+  color: red;
+  text-align: center;
+}
+
+footer p {
+  color: DarkGolenrod;
+  font-size: 13px;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: green;
+}
