@@ -10,7 +10,6 @@
 
 body {
   background-color: DarkSeaGreen;
-  color: Color Name;
   font-family: 'Ariel' Georgia, serif;
   font-size: 14px;
   font-weight: 500;
@@ -23,34 +22,35 @@ body {
   }
 
 h1 {
-  color: DarkSeaGreen;
+  color: Orange;
   font-size: 30px;
-  font-weight: normal;
+  font-weight: 700;
   text-align: left;
   }
 
 h2 {
-  color: Black;
-  font-size: 24px;
+  color: Orange;
+  font-size: 30px;
   font-weight: 700;
 }
 
 p {
-  color: RoyalBlue;
+  color: Gold;
   line-height: 2;
   margin: 15px 0;
 }
 
 ul, ol {
   margin: 15px 0;
+  color: Olive;
 }
 
 section li a {
-  color: Lavender;
+  color: DarkGoldenRod;
 }
 
 header h1 {
-  color: red;
+  color: Gold;
   text-align: center;
 }
 
@@ -61,12 +61,12 @@ footer p {
 
 a {
   text-decoration: none;
-  color: red;
+  color: Red;
 }
 
 a:hover {
   text-decoration: underline;
-  color: green;
+  color: Olive;
 }
 
 img {
@@ -86,7 +86,7 @@ header {
 
 section {
   border: 1px solid gainsboro;
-  background-color: white;
+  background-color: PaleGoldenRod;
   margin: 30px;
   padding: 30px;
 }
@@ -94,12 +94,12 @@ section {
 .title {
   font-size: 48px;
   text-decoration: underline;
-  color: blue;
+  color: DarkGoldenRod;
 }
 
 #footer {
-  background-color: DarkGreen;
-  color: white;
+  background-color: Gold;
+  color: Red;
 }
 
 .box {
@@ -124,16 +124,12 @@ div {
 }
 
 .box {
-  background-image: url(folk-patter-black.png)
+  background-image: url(images/folk-pattern-black.PNG)
   background-size: 100%;
 }
 
 body {
-  background-image: url(images/folk-patter-black.png);
-}
-
-body {
-  background-image: url(images/folk-pattern-black.png);
+  background-image: url(images/folk-pattern-black.PNG);
   background-repeat: repeat;
 }
 
@@ -144,7 +140,23 @@ body {
 }
 
 .banner {
-  height: 350px;
-  background-image: url(images/weldingbackground.jpg);
+  height: 400px;
+  weight: 600px;
+  background-image: url(images/sparks1.JFIF)
   background-size: cover;
+  background-position: center;
+}
+
+.banner {
+  background-position: center;
+  background-repeat: repeat-no;
+
+}
+
+.photo {
+  background-position: 50% right;
+}
+
+.icon {
+  background-position: 0 100px;
 }
