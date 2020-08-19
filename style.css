@@ -17,8 +17,9 @@ body {
 
   h1, h2 {
     font-weight: 100;
-    font-style:  normal;
+    font-style: normal;
     margin-bottom: 20px;
+    color: Blue;
   }
 
 h1 {
@@ -42,11 +43,12 @@ p {
 
 ul, ol {
   margin: 15px 0;
-  color: Olive;
+  color: Yellow;
 }
 
 section li a {
   color: DarkGoldenRod;
+  float: left;
 }
 
 header h1 {
@@ -55,38 +57,42 @@ header h1 {
 }
 
 footer p {
-  color: DarkGolenrod;
-  font-size: 13px;
+  color: DarkGoldenrod;
+  font-size: 20px;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
-  color: Red;
+  /* text-align: center; */
+  color: DarkOliveGreen;
 }
 
 a:hover {
   text-decoration: underline;
-  color: Olive;
+  /* text-align: center; */
+  color: Yellow;
 }
 
 img {
   width: 400px;
   height: 500px;
+
 }
 
 header,
 section,
 footer {
   padding: 30px;
+  font-size: 22px;
 }
 
 header {
-  border-bottom: 5px solid grey;
+  border-bottom: 5px solid Black;
+  padding: 0px;
 }
 
 section {
-  border: 1px solid gainsboro;
-  background-color: PaleGoldenRod;
   margin: 30px;
   padding: 30px;
 }
@@ -98,7 +104,6 @@ section {
 }
 
 #footer {
-  background-color: Gold;
   color: Red;
 }
 
@@ -108,55 +113,83 @@ section {
 }
 
 .box p{
-  font-size: 24px;
+  font-size: 22px;
 }
 
 .container {
   border: 14px solid black;
-  padding: 30px;
+  padding: 40px;
   font-size: 20px;
-  max-width: 1000px;
+  max-width: 500px;
   margin: 0 auto;
 }
+
 
 div {
   margin: 0 auto;
 }
 
-.box {
-  background-image: url(images/folk-pattern-black.PNG)
-  background-size: 100%;
-}
-
 body {
   background-image: url(images/folk-pattern-black.PNG);
-  background-repeat: repeat;
 }
 
 .banner {
-  height: 350px;
-  width: 900px;
-  background-image: url(images/weldingbackground.jpg)
-}
-
-.banner {
-  height: 400px;
-  weight: 600px;
-  background-image: url(images/sparks1.JFIF)
-  background-size: cover;
+  height: 300px;
+  background-image: url(images/weldingbackground.jpg);
+  background-repeat: no-repeat;
   background-position: center;
 }
 
-.banner {
-  background-position: center;
-  background-repeat: repeat-no;
+/* .image { */
+  /* background-position: 50% right; */
+/* } */
 
+/* .icon { */
+  /* background-position: 0 100px; */
+/* } */
+
+h3, h4, h5, h6 {
+  color: Gold;
+  font-size: 30px;
+  text-align: center;
 }
 
-.photo {
-  background-position: 50% right;
+section {
+  colour: Gold;
+  font-size: 22px;
+  text align: center;
 }
 
-.icon {
-  background-position: 0 100px;
+
+section2, section3 {
+  float: center;
+  margin: 500px;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
 }
