@@ -9,11 +9,9 @@
 }
 
 body {
-  background-color: DarkSeaGreen;
   font-family: 'Ariel' Georgia, serif;
   font-size: 14px;
   font-weight: 500;
-  background-image: url(images/folkpatternblack.png);
   }
 
   h1, h2 {
@@ -130,9 +128,6 @@ div {
   margin: 0 auto;
 }
 
-body {
-  background-image: url(images/folkpatternblack.png);
-}
 
 .banner {
   height: 300px;
@@ -193,8 +188,4 @@ section2, section3 {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
-}
-
-body {
-  background-image: url(images/folkpatternblack.png);
 }
