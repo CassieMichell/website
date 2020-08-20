@@ -140,13 +140,13 @@ body {
   background-position: center;
 }
 
-/* .image { */
-  /* background-position: 50% right; */
-/* } */
+.image {
+  background-position: 50% right;
+}
 
-/* .icon { */
-  /* background-position: 0 100px; */
-/* } */
+.icon {
+  background-position: 0 100px;
+}
 
 h3, h4, h5, h6 {
   color: Gold;
