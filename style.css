@@ -15,7 +15,7 @@ body {
   background-image: url(images/folkpatternblack.png);
   }
 
-  h1, h2 {
+h1, h2 {
     font-weight: 100;
     font-style: normal;
     margin-bottom: 20px;
@@ -33,17 +33,20 @@ h2 {
   color: Orange;
   font-size: 30px;
   font-weight: 700;
+  text-align: center;
 }
 
 p {
   color: Gold;
   line-height: 2;
   margin: 15px 0;
+  text-align: center;
 }
 
-ul, ol {
-  margin: 15px 0;
+ul, ol, li {
+  margin: 10px;
   color: Yellow;
+  line-height: 2;
 }
 
 section li a {
@@ -85,6 +88,7 @@ section,
 footer {
   padding: 30px;
   font-size: 22px;
+  text-align: left;
 }
 
 header {
@@ -93,7 +97,7 @@ header {
 }
 
 section {
-  margin: 30px;
+  margin: 10px;
   padding: 30px;
 }
 
@@ -147,7 +151,7 @@ div {
 
 h3, h4, h5, h6 {
   color: Gold;
-  font-size: 30px;
+  font-size: 38px;
   text-align: center;
 }
 
@@ -189,4 +193,39 @@ section2, section3 {
 .topnav a.active {
   background-color: #4CAF50;
   color: white;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+p3 {
+  font-size: 28px;
+  color: Gold;
+  line-height: 2;
+}
+
+li {
+  line-height: 1;
+  color: Khaki;
+  font-size: 22px;
 }
