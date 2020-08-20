@@ -13,7 +13,7 @@ body {
   font-family: 'Ariel' Georgia, serif;
   font-size: 14px;
   font-weight: 500;
-  background-image: url(images/folkpatternblack.PNG);
+  background-image: url(images/folkpatternblack.png);
   }
 
   h1, h2 {
@@ -131,7 +131,7 @@ div {
 }
 
 body {
-  background-image: url(images/folkpatternblack.PNG);
+  background-image: url(images/folkpatternblack.png);
 }
 
 .banner {
